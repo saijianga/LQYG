@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="257" id="KGk-i7-Jjw" customClass="GiftTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="257"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="362" height="256.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hongbao" translatesAutoresizingMaskIntoConstraints="NO" id="Fbe-h5-FQG">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="lQV-CK-Rpw"/>
+                            <constraint firstAttribute="width" constant="120" id="wvc-HN-GYP"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gL-gr-bee">
+                        <color key="backgroundColor" red="0.98869091269999998" green="0.57066208119999995" blue="0.01979550347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="bcB-zt-lNy"/>
+                            <constraint firstAttribute="width" constant="100" id="pj9-jJ-eMs"/>
+                        </constraints>
+                        <state key="normal" title="立即夺宝"/>
+                        <connections>
+                            <action selector="getGiftAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ayT-ey-jbS"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="亲,您还没有红包哦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Rl-yi-uRX">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="g0X-g7-bTQ"/>
+                            <constraint firstAttribute="width" constant="130" id="vGu-Zm-EQI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fbe-h5-FQG" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="0xr-6W-R4x"/>
+                    <constraint firstItem="7Rl-yi-uRX" firstAttribute="top" secondItem="Fbe-h5-FQG" secondAttribute="bottom" constant="10" id="51n-XF-5Zr"/>
+                    <constraint firstItem="7Rl-yi-uRX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="SLd-jo-kee"/>
+                    <constraint firstItem="Fbe-h5-FQG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="eah-kB-HUs"/>
+                    <constraint firstItem="8gL-gr-bee" firstAttribute="top" secondItem="7Rl-yi-uRX" secondAttribute="bottom" constant="5" id="xck-Jy-v6c"/>
+                    <constraint firstItem="8gL-gr-bee" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="yTT-WB-vQR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="getButton" destination="8gL-gr-bee" id="pYA-ON-EZD"/>
+            </connections>
+            <point key="canvasLocation" x="55" y="255.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hongbao" width="128" height="175"/>
+    </resources>
+</document>

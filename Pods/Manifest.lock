@@ -1,0 +1,94 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap2DMap (4.1.1):
+    - AMapFoundation (~> 1.1)
+  - AMapFoundation (1.3.2)
+  - AMapLocation (2.1.1):
+    - AMapFoundation (~> 1.2)
+  - AMapSearch (4.2.0):
+    - AMapFoundation (~> 1.0)
+  - BaiduMapKit (3.0.0)
+  - CYLTabBarController (1.6.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - MPBluetoothKit (0.1.0)
+  - RESideMenu (4.0.7)
+  - RongCloudIM/CallKit (2.8.0):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.0):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.0):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - TZImagePickerController (1.7.1)
+  - ViewDeck (2.4.2)
+  - WMPageController (2.1.0)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - AMap2DMap (= 4.1.1)
+  - AMapLocation (= 2.1.1)
+  - AMapSearch (= 4.2.0)
+  - BaiduMapKit (= 3.0.0)
+  - CYLTabBarController (= 1.6.0)
+  - MBProgressHUD (= 1.0.0)
+  - MJRefresh (= 3.1.12)
+  - MPBluetoothKit (= 0.1.0)
+  - RESideMenu (= 4.0.7)
+  - RongCloudIM/CallKit (= 2.8.0)
+  - RongCloudIM/CallLib (= 2.8.0)
+  - RongCloudIM/IMKit (= 2.8.0)
+  - RongCloudIM/IMLib (= 2.8.0)
+  - SDCycleScrollView (= 1.65)
+  - SDWebImage (= 3.8.1)
+  - TZImagePickerController (= 1.7.1)
+  - ViewDeck (= 2.4.2)
+  - WMPageController (= 2.1.0)
+  - YYKit (= 1.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap2DMap: e69e7a598718bef0addeea41240646f5a045c41c
+  AMapFoundation: 843dc27b2c02bc0bc2ef3346bb3dd0456cf64dbb
+  AMapLocation: dd203f76b034ef5cb546600f4e1ffad2a3a14072
+  AMapSearch: 788020fca7ed18819e8bc2bfca716a6775a05ada
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MPBluetoothKit: 40f9e1c3cf9f5d7357f344560015b8c8cc7f5b53
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  RongCloudIM: 82a5fcf93027ef2845063e6d5ba77f9f42eb87a5
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TZImagePickerController: cbfd57ba947263759b860f74132dd1bc33125afc
+  ViewDeck: 0b7b83bc2782a20dfb76207d0a2e8c5e6a6d182d
+  WMPageController: 1a2aa3cc00da3ccb62203205cafffa0d10735195
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: 724b7a5ba3cb40ad000f60312ded134041ce2328
+
+COCOAPODS: 1.1.1

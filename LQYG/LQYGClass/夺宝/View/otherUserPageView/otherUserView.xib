@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="otherUserView">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="161"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="mqT-sf-caA">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="0nb-YJ-pja"/>
+                        <constraint firstAttribute="width" constant="60" id="hCU-bu-k4B"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <integer key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="封号永久卸载坑爹啊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfI-Mg-3VK">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="fKm-X4-zPR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID: 364756" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcQ-og-VGG">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="m2P-W8-AXO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etp-I2-ict">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="bpG-Nb-22n"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TcQ-og-VGG" secondAttribute="trailing" constant="1" id="1kT-f3-YkS"/>
+                <constraint firstItem="mqT-sf-caA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="AYy-JE-xBa"/>
+                <constraint firstItem="Etp-I2-ict" firstAttribute="leading" secondItem="mqT-sf-caA" secondAttribute="trailing" constant="1" id="CqV-vs-zHq"/>
+                <constraint firstItem="Etp-I2-ict" firstAttribute="top" secondItem="mfI-Mg-3VK" secondAttribute="bottom" constant="5" id="HWV-HU-DDK"/>
+                <constraint firstItem="Etp-I2-ict" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Mwc-Wn-HI3"/>
+                <constraint firstItem="mqT-sf-caA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="RB4-J0-eZJ"/>
+                <constraint firstAttribute="trailing" secondItem="mfI-Mg-3VK" secondAttribute="trailing" constant="1" id="ZX5-CS-HX3"/>
+                <constraint firstItem="mfI-Mg-3VK" firstAttribute="leading" secondItem="mqT-sf-caA" secondAttribute="trailing" constant="20" id="c7H-pR-E4U"/>
+                <constraint firstItem="TcQ-og-VGG" firstAttribute="top" secondItem="Etp-I2-ict" secondAttribute="bottom" constant="5" id="fO9-UH-SwC"/>
+                <constraint firstItem="TcQ-og-VGG" firstAttribute="leading" secondItem="mqT-sf-caA" secondAttribute="trailing" constant="20" id="k8q-Za-nOB"/>
+                <constraint firstAttribute="trailing" secondItem="Etp-I2-ict" secondAttribute="trailing" constant="1" id="nIf-nV-ysY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="userHeaderImage" destination="mqT-sf-caA" id="glD-kp-t2T"/>
+                <outlet property="userIDLabel" destination="TcQ-og-VGG" id="oHa-eG-Ekd"/>
+                <outlet property="userNameLabel" destination="mfI-Mg-3VK" id="LbB-58-0yS"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="-120.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="730" height="350"/>
+    </resources>
+</document>

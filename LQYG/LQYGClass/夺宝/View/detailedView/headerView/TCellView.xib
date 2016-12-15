@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="157"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所有参与记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCw-BW-Wec">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="dti-kL-0Vd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(自2016-10-26 19:50:00开始)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXg-m8-Z2M">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="6cO-T8-NOg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.72148895263671875" green="0.7216145396232605" blue="0.72148102521896362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QXg-m8-Z2M" firstAttribute="leading" secondItem="JCw-BW-Wec" secondAttribute="trailing" constant="8" id="GSl-iO-NB7"/>
+                <constraint firstAttribute="trailing" secondItem="QXg-m8-Z2M" secondAttribute="trailing" constant="10" id="LyQ-y7-yJ7"/>
+                <constraint firstAttribute="bottom" secondItem="JCw-BW-Wec" secondAttribute="bottom" constant="10" id="TVZ-Yq-uLg"/>
+                <constraint firstItem="QXg-m8-Z2M" firstAttribute="leading" secondItem="JCw-BW-Wec" secondAttribute="trailing" constant="8" id="Wvz-4V-TLb"/>
+                <constraint firstAttribute="bottom" secondItem="QXg-m8-Z2M" secondAttribute="bottom" constant="10" id="oxA-2n-27A"/>
+                <constraint firstItem="JCw-BW-Wec" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="wXf-vD-Nax"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="-144.5"/>
+        </view>
+    </objects>
+</document>

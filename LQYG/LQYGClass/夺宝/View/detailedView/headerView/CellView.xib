@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CellView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="379"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbw-Nf-MzL"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进行中 中国黄金 金砖200g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuf-Gy-ncR">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总需:  7463746人次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so3-Dm-whD">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.85087435233160624" green="0.85087435233160624" blue="0.85087435233160624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="期号:  8483743735" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A21-gX-udM">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.85087435233160624" green="0.85087435233160624" blue="0.85087435233160624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="knc-vD-dLk">
+                    <color key="tintColor" red="0.79246250734051982" green="0.99578601121902466" blue="0.1970606521142822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="364736已参与" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNA-cv-OoI">
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.8508874773979187" green="0.85103398561477661" blue="0.85087817907333374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="剩余346374" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRt-bV-co1">
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.8508874773979187" green="0.85103398561477661" blue="0.85087817907333374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你没有参与本次夺宝哦!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDc-s3-KRO">
+                    <color key="backgroundColor" red="0.8508874773979187" green="0.85103398561477661" blue="0.85087817907333374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.6919930477518853" green="0.69927718509664194" blue="0.69927718509664194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="声明: 所有商品抽奖活动与苹果公司(apple.icn) 无关" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK2-8G-79b">
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KRt-bV-co1" firstAttribute="top" secondItem="knc-vD-dLk" secondAttribute="bottom" constant="8" id="1Lh-tR-6Hx"/>
+                <constraint firstItem="IDc-s3-KRO" firstAttribute="top" secondItem="UNA-cv-OoI" secondAttribute="bottom" constant="8" id="1a7-CM-DbM"/>
+                <constraint firstItem="zuf-Gy-ncR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="33i-6E-rOx"/>
+                <constraint firstAttribute="trailing" secondItem="A21-gX-udM" secondAttribute="trailing" constant="10" id="3xw-0b-758"/>
+                <constraint firstAttribute="trailing" secondItem="zuf-Gy-ncR" secondAttribute="trailing" constant="10" id="4Un-Fs-el4"/>
+                <constraint firstItem="A21-gX-udM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="63X-t1-8op"/>
+                <constraint firstAttribute="bottom" secondItem="fK2-8G-79b" secondAttribute="bottom" constant="10" id="9mf-gU-7rq"/>
+                <constraint firstItem="IDc-s3-KRO" firstAttribute="top" secondItem="KRt-bV-co1" secondAttribute="bottom" constant="6" id="CGY-AU-W1G"/>
+                <constraint firstItem="IDc-s3-KRO" firstAttribute="top" secondItem="KRt-bV-co1" secondAttribute="bottom" constant="6" id="EZf-AC-4JC"/>
+                <constraint firstItem="knc-vD-dLk" firstAttribute="top" secondItem="A21-gX-udM" secondAttribute="bottom" constant="16" id="NDs-mi-dUh"/>
+                <constraint firstItem="zuf-Gy-ncR" firstAttribute="top" secondItem="gbw-Nf-MzL" secondAttribute="bottom" id="O86-w3-Ne3"/>
+                <constraint firstItem="gbw-Nf-MzL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UfX-Jd-ToN"/>
+                <constraint firstItem="UNA-cv-OoI" firstAttribute="top" secondItem="knc-vD-dLk" secondAttribute="bottom" constant="8" id="XiZ-rI-Lpn"/>
+                <constraint firstItem="fK2-8G-79b" firstAttribute="top" secondItem="IDc-s3-KRO" secondAttribute="bottom" constant="8" id="Zdn-WY-0k6"/>
+                <constraint firstItem="gbw-Nf-MzL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aVV-tv-e9K"/>
+                <constraint firstItem="so3-Dm-whD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="c0V-Ew-bm2"/>
+                <constraint firstItem="so3-Dm-whD" firstAttribute="top" secondItem="zuf-Gy-ncR" secondAttribute="bottom" constant="8" id="c4O-Mj-Ynm"/>
+                <constraint firstAttribute="trailing" secondItem="KRt-bV-co1" secondAttribute="trailing" constant="10" id="d44-VX-lti"/>
+                <constraint firstItem="fK2-8G-79b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dzX-c8-WuO"/>
+                <constraint firstItem="IDc-s3-KRO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="fjv-wq-B6n"/>
+                <constraint firstAttribute="trailing" secondItem="fK2-8G-79b" secondAttribute="trailing" id="hQt-9u-hzT"/>
+                <constraint firstItem="knc-vD-dLk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="hfy-4z-OGo"/>
+                <constraint firstAttribute="trailing" secondItem="knc-vD-dLk" secondAttribute="trailing" constant="10" id="lJX-wB-omH"/>
+                <constraint firstItem="fK2-8G-79b" firstAttribute="top" secondItem="IDc-s3-KRO" secondAttribute="bottom" constant="8" id="lOb-Yy-i01"/>
+                <constraint firstItem="A21-gX-udM" firstAttribute="top" secondItem="so3-Dm-whD" secondAttribute="bottom" constant="8" id="nbq-sy-AD2"/>
+                <constraint firstItem="so3-Dm-whD" firstAttribute="top" secondItem="zuf-Gy-ncR" secondAttribute="bottom" constant="8" id="oLz-b3-HB8"/>
+                <constraint firstItem="KRt-bV-co1" firstAttribute="top" secondItem="knc-vD-dLk" secondAttribute="bottom" constant="8" id="oiF-KU-Ej3"/>
+                <constraint firstAttribute="trailing" secondItem="so3-Dm-whD" secondAttribute="trailing" constant="10" id="qEy-P8-hGe"/>
+                <constraint firstItem="UNA-cv-OoI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="qrl-XX-dqz"/>
+                <constraint firstAttribute="trailing" secondItem="IDc-s3-KRO" secondAttribute="trailing" constant="30" id="t2r-BQ-EyO"/>
+                <constraint firstItem="KRt-bV-co1" firstAttribute="leading" secondItem="UNA-cv-OoI" secondAttribute="trailing" constant="8" id="tjj-hK-fMV"/>
+                <constraint firstItem="zuf-Gy-ncR" firstAttribute="top" secondItem="gbw-Nf-MzL" secondAttribute="bottom" id="unG-35-ous"/>
+                <constraint firstItem="KRt-bV-co1" firstAttribute="leading" secondItem="UNA-cv-OoI" secondAttribute="trailing" constant="8" id="uoy-CU-v8m"/>
+                <constraint firstAttribute="trailing" secondItem="gbw-Nf-MzL" secondAttribute="trailing" id="xYM-d2-6qJ"/>
+                <constraint firstItem="knc-vD-dLk" firstAttribute="top" secondItem="A21-gX-udM" secondAttribute="bottom" constant="16" id="xve-XM-G1x"/>
+                <constraint firstItem="A21-gX-udM" firstAttribute="top" secondItem="so3-Dm-whD" secondAttribute="bottom" constant="8" id="yxy-H4-tMh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="GNameLabel" destination="zuf-Gy-ncR" id="1nr-OU-Zyz"/>
+                <outlet property="GScrollView" destination="gbw-Nf-MzL" id="ydZ-hE-jIS"/>
+                <outlet property="HCLabel" destination="UNA-cv-OoI" id="nfY-a8-Sqe"/>
+                <outlet property="HLastLabel" destination="KRt-bV-co1" id="3JZ-VC-KxD"/>
+                <outlet property="HNumLabel" destination="so3-Dm-whD" id="dFy-6Q-OLE"/>
+                <outlet property="HProgressView" destination="knc-vD-dLk" id="7dK-aw-bcb"/>
+                <outlet property="HQNumLabel" destination="A21-gX-udM" id="UR1-Bg-gef"/>
+                <outlet property="HWaringLabel" destination="IDc-s3-KRO" id="L4M-OD-DLw"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-33.5"/>
+        </view>
+    </objects>
+</document>

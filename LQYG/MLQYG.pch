@@ -1,0 +1,35 @@
+//
+//  MLQYG.pch
+//  LQYG
+//
+//  Created by issuser on 2016/10/19.
+//  Copyright © 2016年 JS. All rights reserved.
+//
+
+//#ifndef MLQYG_pch   //由于添加了.c文件 这里需要将这些文件放到 #indef __OBJC__  #endif之间
+ #ifdef __OBJC__
+#define MLQYG_pch
+#import "FindViewController.h"
+#import "GetViewController.h"
+#import "MyViewController.h"
+#import "NewViewController.h"
+#import "ListViewController.h"
+#import "SwitchController.h"
+#import "httpController.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "TSAnimation.h"
+#import "YYKit.h"
+#import "UITabBar+Badge.h"
+#import "AppDelegate.h"
+#import "IIViewDeckController.h"
+#import "RESideMenu.h"
+//#import "CustomCollectionViewCell.h"
+#define SCREEN_WIDTH self.view.frame.size.width
+#define SCREEN_HEIGHT self.view.frame.size.height
+//
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MLQYG_pch */

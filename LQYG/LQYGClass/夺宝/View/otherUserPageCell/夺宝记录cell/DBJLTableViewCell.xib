@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="182" id="KGk-i7-Jjw" customClass="DBJLTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="424" height="181"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="c9k-qW-L1X">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="ECn-6w-Z8q"/>
+                            <constraint firstAttribute="width" constant="80" id="rLJ-5O-eik"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(速开专区)中石化加油卡 2000源" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZY-WU-i18">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="os9-x9-Qu2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="期号: 27438743473647" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-4y-rD8">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Gxn-0m-xD4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总需: 34783748人次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzs-Wz-bUd">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="pi9-kQ-FeV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ggt-QO-8gJ">
+                        <color key="progressTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </progressView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3P-SJ-Zdb">
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="8ER-Lw-SyH"/>
+                            <constraint firstAttribute="width" constant="50" id="lDQ-lp-gVT"/>
+                        </constraints>
+                        <state key="normal" title="跟买"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IP1-Dd-ECM">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="IgL-T7-SVu"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="剩余">
+                                <attributes>
+                                    <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="2376">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="7364人参与" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dt-7F-G2H">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="seJ-H1-Fer"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqI-ml-Wwy">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="fzd-7W-VLz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="查看夺宝号">
+                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRe-7u-8k4">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8fw-Ao-VBH"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="本期参与: ">
+                                <attributes>
+                                    <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="200">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="人次">
+                                <attributes>
+                                    <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IP1-Dd-ECM" firstAttribute="top" secondItem="Ggt-QO-8gJ" secondAttribute="bottom" constant="10" id="3ch-R8-4FR"/>
+                    <constraint firstItem="mZY-WU-i18" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="7mx-et-x8g"/>
+                    <constraint firstItem="c9k-qW-L1X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="In8-6F-Uqw"/>
+                    <constraint firstItem="Pnw-4y-rD8" firstAttribute="leading" secondItem="c9k-qW-L1X" secondAttribute="trailing" constant="5" id="PN6-bp-uS4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Pnw-4y-rD8" secondAttribute="trailing" constant="2" id="QEA-ku-fjC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ggt-QO-8gJ" secondAttribute="trailing" constant="60" id="URl-UH-0j6"/>
+                    <constraint firstItem="IRe-7u-8k4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="90" id="V7z-Q2-nwe"/>
+                    <constraint firstItem="8dt-7F-G2H" firstAttribute="top" secondItem="Ggt-QO-8gJ" secondAttribute="bottom" constant="10" id="Vix-Xh-n85"/>
+                    <constraint firstItem="IRe-7u-8k4" firstAttribute="top" secondItem="8dt-7F-G2H" secondAttribute="bottom" constant="20" id="WPP-To-VSu"/>
+                    <constraint firstItem="mZY-WU-i18" firstAttribute="leading" secondItem="c9k-qW-L1X" secondAttribute="trailing" constant="5" id="Y1T-Zo-vF7"/>
+                    <constraint firstItem="N3P-SJ-Zdb" firstAttribute="leading" secondItem="IP1-Dd-ECM" secondAttribute="trailing" constant="5" id="YNe-lp-B2U"/>
+                    <constraint firstItem="Ggt-QO-8gJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="90" id="YfE-30-1K4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mZY-WU-i18" secondAttribute="trailing" constant="1" id="YlZ-Yj-vyz"/>
+                    <constraint firstItem="hzs-Wz-bUd" firstAttribute="top" secondItem="Pnw-4y-rD8" secondAttribute="bottom" constant="2" id="ZDg-T9-SG7"/>
+                    <constraint firstItem="c9k-qW-L1X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="aTh-Hv-dLK"/>
+                    <constraint firstItem="DqI-ml-Wwy" firstAttribute="leading" secondItem="IRe-7u-8k4" secondAttribute="trailing" constant="2" id="ace-dT-Ewj"/>
+                    <constraint firstItem="Pnw-4y-rD8" firstAttribute="top" secondItem="mZY-WU-i18" secondAttribute="bottom" constant="2" id="gkK-m0-lcw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DqI-ml-Wwy" secondAttribute="trailing" constant="5" id="hGk-Jg-wIi"/>
+                    <constraint firstItem="IP1-Dd-ECM" firstAttribute="leading" secondItem="8dt-7F-G2H" secondAttribute="trailing" constant="5" id="ipS-iy-xvS"/>
+                    <constraint firstItem="Ggt-QO-8gJ" firstAttribute="top" secondItem="hzs-Wz-bUd" secondAttribute="bottom" constant="5" id="l8D-VD-gUI"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="N3P-SJ-Zdb" secondAttribute="trailing" constant="2" id="lhd-zK-fQ0"/>
+                    <constraint firstItem="N3P-SJ-Zdb" firstAttribute="top" secondItem="hzs-Wz-bUd" secondAttribute="bottom" constant="15" id="oEt-67-Chq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hzs-Wz-bUd" secondAttribute="trailing" constant="2" id="sXq-ly-oBm"/>
+                    <constraint firstItem="8dt-7F-G2H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="90" id="sk5-pu-B4e"/>
+                    <constraint firstItem="hzs-Wz-bUd" firstAttribute="leading" secondItem="c9k-qW-L1X" secondAttribute="trailing" constant="5" id="u4w-2Z-xz8"/>
+                    <constraint firstItem="DqI-ml-Wwy" firstAttribute="top" secondItem="N3P-SJ-Zdb" secondAttribute="bottom" constant="10" id="v90-wM-nQA"/>
+                    <constraint firstItem="IP1-Dd-ECM" firstAttribute="leading" secondItem="8dt-7F-G2H" secondAttribute="trailing" constant="5" id="vHQ-Ma-T31"/>
+                </constraints>
+            </tableViewCellContentView>
+            <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <point key="canvasLocation" x="37" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="730" height="350"/>
+    </resources>
+</document>

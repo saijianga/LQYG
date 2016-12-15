@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="userView">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="174"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-by-cxz">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="R3w-jm-fRu"/>
+                        <constraint firstAttribute="height" constant="80" id="ddZ-Y0-4lN"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="40"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="土豪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTi-Db-Cvi">
+                    <color key="backgroundColor" red="0.96862580507868001" green="0.9994240403175354" blue="0.14077901684045344" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="3nx-qL-47j"/>
+                        <constraint firstAttribute="width" constant="40" id="v8U-fL-f1K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <color key="highlightedColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWw-uo-lLG">
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="真的最后一次了">
+                        <color key="titleColor" red="0.13332679650000001" green="0.14070238469999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="CheckUserAttion:" destination="iN0-l3-epB" eventType="touchUpInside" id="VHq-et-sc0"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="参与34377人次" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N32-3v-I2R">
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="N32-3v-I2R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="2fk-9N-8OQ"/>
+                <constraint firstItem="Qpf-by-cxz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5Rh-AK-2IA"/>
+                <constraint firstItem="LTi-Db-Cvi" firstAttribute="top" secondItem="Qpf-by-cxz" secondAttribute="bottom" constant="8" id="6Gh-Wt-nBb"/>
+                <constraint firstItem="rWw-uo-lLG" firstAttribute="top" secondItem="LTi-Db-Cvi" secondAttribute="bottom" constant="3" id="7Tl-Fe-FmP"/>
+                <constraint firstItem="rWw-uo-lLG" firstAttribute="top" secondItem="LTi-Db-Cvi" secondAttribute="bottom" constant="3" id="Bcl-rW-R9s"/>
+                <constraint firstItem="LTi-Db-Cvi" firstAttribute="top" secondItem="Qpf-by-cxz" secondAttribute="bottom" constant="8" id="Bdk-Eq-APy"/>
+                <constraint firstItem="N32-3v-I2R" firstAttribute="top" secondItem="rWw-uo-lLG" secondAttribute="bottom" constant="1" id="E8S-fQ-hLM"/>
+                <constraint firstItem="Qpf-by-cxz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ER9-Vw-NkQ"/>
+                <constraint firstItem="rWw-uo-lLG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="IoW-eR-8Lr"/>
+                <constraint firstItem="N32-3v-I2R" firstAttribute="top" secondItem="rWw-uo-lLG" secondAttribute="bottom" constant="1" id="Ubk-gh-sBE"/>
+                <constraint firstAttribute="trailing" secondItem="rWw-uo-lLG" secondAttribute="trailing" constant="5" id="eRv-mR-wgw"/>
+                <constraint firstAttribute="bottom" secondItem="N32-3v-I2R" secondAttribute="bottom" constant="5" id="ffm-C7-3eS"/>
+                <constraint firstItem="LTi-Db-Cvi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="i8i-KV-YNH"/>
+                <constraint firstAttribute="trailing" secondItem="N32-3v-I2R" secondAttribute="trailing" constant="5" id="sh4-Y9-8PZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="DimageLabel" destination="LTi-Db-Cvi" id="1WZ-2Q-td2"/>
+                <outlet property="GoNumberLabel" destination="N32-3v-I2R" id="iYg-Vw-osU"/>
+                <outlet property="HButton" destination="rWw-uo-lLG" id="UAE-xQ-UOm"/>
+                <outlet property="HeaderImageView" destination="Qpf-by-cxz" id="a98-0L-ZIl"/>
+            </connections>
+            <point key="canvasLocation" x="-83" y="-136"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2" width="730" height="350"/>
+    </resources>
+</document>
